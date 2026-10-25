@@ -1,0 +1,25 @@
+{
+  "name": "lab-mtrx-testing",
+  "version": "1.0.0",
+  "description": "Unit tests for the mtrx matrix library written with Mocha and Chai",
+  "private": true,
+  "scripts": {
+    "test": "mocha \"test/unit/**/*.test.js\"",
+    "test:defects": "mocha \"test/defects/**/*.test.js\""
+  },
+  "keywords": [
+    "mocha",
+    "chai",
+    "testing",
+    "matrix",
+    "mtrx"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "mtrx": "^0.1.6"
+  },
+  "devDependencies": {
+    "chai": "^4.5.0",
+    "mocha": "^12.0.3"
+  }
+}
