@@ -1,3 +1,11 @@
+# Commands
+
+```sh
+npm install
+npm test
+npm run test:defects
+```
+
 # Відповіді на контрольні запитання
 
 ## 1. Наведіть види тестування
